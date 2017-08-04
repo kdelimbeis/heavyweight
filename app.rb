@@ -12,3 +12,7 @@ end
 get '/contact' do
   erb :contact
 end
+
+get '/inventory' do
+  erb :inventory
+end
