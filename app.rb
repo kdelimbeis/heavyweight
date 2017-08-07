@@ -19,6 +19,10 @@ get '/inventory' do
   erb :inventory
 end
 
+get '/specials' do
+  erb :specials
+end
+
 get '/submit' do
   erb :submit
 end
@@ -37,7 +41,7 @@ post '/submit' do
   puts response.status_code
 
   if response.status_code == '202'
-    redirect '/submit'
+    redirect "/submit?name=#{@name}"
   else
     redirect '/contact'
   end
