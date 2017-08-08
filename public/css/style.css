@@ -89,3 +89,15 @@ li a:hover {
 body {
     background-image: url(http://www.mybligr.com/wp-content/uploads/2017/01/most-beautiful-tiger-animals-pics-images-photos-pictures-6.jpg);
 }
+
+#one{
+  display: block;
+}
+
+#two{
+  display: none;
+}
+
+#three{
+  display: none;
+}

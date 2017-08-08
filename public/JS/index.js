@@ -2,7 +2,7 @@
 var modal = document.getElementById('myModal');
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+var span = document.getElementById('close');
 
 // When the user clicks on <span> (x), close the modal
 span.onclick = function() {
@@ -17,7 +17,7 @@ window.onclick = function(event) {
 }
 
 window.addEventListener("load", function(){
-  setTimeout(function(){ 
-    
+  setTimeout(function(){
+
     modal.classList.remove("hidden"); }, 3000);
 });
